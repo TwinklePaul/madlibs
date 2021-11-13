@@ -55,7 +55,7 @@ def fill_in_the_blanks(para):
     return para
 
 
-def play_game():
+def start_game():
     clear()
     print("\t\t\t\t\t Welcome! to the MADLIBS game!\n\n")
     print("\t\t\t\t\tPress Enter when you are ready!!\n\n\n\n")
@@ -87,4 +87,4 @@ def play_game():
 
 
 if __name__ == "__main__":
-    play_game()
+    start_game()
